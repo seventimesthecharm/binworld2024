@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2024 bin cyworld</title>
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="diary.css" />
+    <script src="https://kit.fontawesome.com/ab54b9d48d.js" crossorigin="anonymous"></script>
+    <script>
+
+      function checkPassword() {
+        var inputPassword = document.getElementById("passwordInput").value;
+        var correctPassword = "0602";
+        if (inputPassword === correctPassword) {
+          document.getElementById("diaryContent").style.display = "block";
+          document.getElementById("passwordPrompt").style.display = "none";
+        } else {
+          alert("자취방 입성 날짜");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="profile-container">
+            <div class="header profile-title font-neo">
+              TODAY<span class="color-red"> 69</span> | TOTAL 6974
+            </div>
+            <div class="box profile-box">
+              <div class="profile-image">
+                <img
+                  class="profile-image-img"
+                  src="image/6281a82646f01a50f11c45e7431d32630834b343.png"
+                  style="width:150px; height:150px;"
+                  alt="프로필 이미지"
+                />
+              </div>
+              <div class="profile-text font-kyobohand">
+                <p>╭◜◝ ͡  ◜◝  ͡  ◜◝╮<p>섹시깜고 생각 중<p>╰◟◞  ͜  ◟◞  ͜  ◟◞╯<p>O<p>˚</p>
+              </div>
+              <div class="profile-username font-kyobohand">
+                <span style="color: #0f1b5c">박원빈</span>(b1nzzang)
+              </div>
+              <div class="left__body__footer">
+              <div class="profile-dropdown">
+                <div class="dropdown-button">
+                  <div class="dropdown-title">훔쳐보기</div>
+                  <div class="triangle-down"></div>
+                </div>
+                <div class="dropdown-content">
+                    <a href="https://youtu.be/ONiCIgucKvk?si=Fe5W4riD7-mu7XhN">고백하기</a>
+                    <a href="https://youtu.be/T6OF0rp83Vk?si=hNECuypxZwk8VJvO">사귀기</a>
+                    <a href="https://youtu.be/MemcTxtNv9Q?si=_nA8VWueL_fmHsji">결혼하기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-container">
+            <div class="header content-title">
+                <div class="content-title-name">박원빈의 미니홈피</div>
+                <div class="content-title-url">http://거절하면.죽을게</div>
+            </div>
+            </div>
+            <div class="box content-box">
+                <div class="calendar">
+                    <div class="date-today">07.01<br/>MON</div>
+                    <div class="date-list">
+                      <div class="date">1</div>
+                      <div class="date">2</div>
+                        <div class="date">3</div>
+                        <div class="date">4</div>
+                        <div class="date">5</div>
+                        <div class="date"><span class="date-blue">6</span></div>
+                        <div class="date"><span class="date-red">7</span></div>
+                        <div class="date">8</div>
+                        <div class="date">9</div>
+                        <div class="date">10</div>
+                        <div class="date">11</div>
+                        <div class="date">12</div>
+                        <div class="date"><span class="date-blue">13</span></div>
+                        <div class="date"><span class="date-red">14</span></div>
+                        <div class="date">15</div>
+                        <div class="date">16</div>
+                        <div class="date">17</div>
+                        <div class="date">18</div>
+                        <div class="date">19</div>
+                        <div class="date"><span class="date-blue">20</span></div>
+                        <div class="date"><span class="date-red">21</span></div>
+                        <div class="date">22</div>
+                        <div class="date">23</div>
+                        <div class="date">24</div>
+                        <div class="date">25</div>
+                        <div class="date">26</div>
+                        <div class="date"><span class="date-blue">27</span></div>
+                        <div class="date"><span class="date-red">28</span></div>
+                        <div class="date">29</div>
+                        <div class="date">30</div>
+                        <div class="date">31</div>
+                    </div>
+                </div>
+                <div class="diary-scrollbox">
+                    <div id="passwordPrompt">
+                        <p>비밀번호를 입력하세요:</p>
+                        <input type="password" id="passwordInput" />
+                        <button onclick="checkPassword()">확인</button>
+                    </div>
+                    <div id="diaryContent" style="display: none;">
+                        <div class="diary">
+                            <div class="diary-date">2024.06.02. 일 20:00</div>
+                            <div class="diary-contents">
+                                <p>이상한 형과 조우했다 <br>자판기마냥 버튼을 누르면 별게 다 나온다<br>겪고 보니 노답 변태 같기도 하고......<br>조심해야겠다</p>
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="diary-date">2024.06.09. 일 00:30</div>
+                            <div class="diary-contents">
+                                <p>적당히 마시고 오겠다더니<br>뭐 때문에 그렇게 긴장했는지<br>아주 진탕 취해서 나를 만나러 왔다<br>이 형 오늘 일 내일 기억이나 할까?</p>
+                            </div>
+                        </div>
+                        <div class="diary">
+                            <div class="diary-date">2024.06.10. 월 23:50 </div>
+                            <div class="diary-contents">
+                                <p>형이 제일 좋아한다는 영화를 봤다<br>상대가 본 영화를 다 보고 싶다고 하는 건<br>고백이나 마찬가지라는데<br><br><br>형한테는 절대 말 안 해야지</p>
+                            </div>
+                        </div>
+                        <div class="diary">
+                          <div class="diary-date">2024.06.13. 목 15:15 </div>
+                          <div class="diary-contents">
+                              <p>분명 내 유구한 이상형은 싸없귀인데<br>형을 만나면서 점점 이상형이 바뀌는 것만 같다<br>내로남불 심하고 추구미가 깜고에다가<br>야한 걸 좋아하는 노답 변태 새끼가 내 취향이라니<br>이거 어쩌면 발목 제대로 감긴 걸지도 모르겠다</p>
+                          </div>
+                          </div>
+                          <div class="diary">
+                            <div class="diary-date">2024.06.27. 목 01:23 </div>
+                            <div class="diary-contents">
+                              <p>감자탕집 아들이나 연어 양식장집 아들이랑 결혼하고 싶다는데<br>설마 Tlqkf 이거 나랑은 결혼하기 싫다는 뜻인가?<br>나랑은 불장난만 치다가 연락 끊을 거라는 걸 돌려 말한 건가?<br>오늘부터라도 부모님 꼬셔서 감자탕집이랑 연어 양식장 해 보자고 할까......</p>
+                            </div>
+                      </div>
+                      <br><br><br><br><br><br><br>
+                      <div class="diary">
+                        <div class="diary-date">2024.07.05 금 12:34 </div>
+                        <div class="diary-contents"
+                        style="text-align: start",     font-size:15px;
+                        line-height: 200%;
+                        p { letter-spacing: -1.7px; }>
+                            <p>　여지껏 무수한 활자들로 갖가지 마음을 전해 왔지만 이번에는 유독 진정이 안 돼요 마음을 꾹꾹 눌러 담은 편지 말고도 누군가를 위해 열심히 무언가를 물색하고 아낌없이 심중을 내비치고 골똘히 신경 쓰는 일이 잦아지는 게 전부 오래간만이라 이렇게 떨리나 봐요 놓고 산 지 오래인 것들을 형으로 하여금 다시 손을 뻗게 되기도 하고 또 연애가 처음인 숙맥마냥 속절없이 심중을 내비치게 되는 일상의 반복이네요
+                              <br><br>　운명을 믿지 않고 산 지 어언 수십 년이 되었는데 형과 만난 후부터는 어쩌면 운명이라는 게 있을지도 모른다는 유치한 생각을 거듭해요 좋아할 수밖에 없었을 거라느니 사랑에 빠질 수밖에 없다느니 하는 뻔하고 시시콜콜한 클리셰가 오히려 더 무드 없고 비현실적이라 생각해 왔거든요 내 나이를 헤아리기 힘들어질 때마다 역시 운명은 없는 게 맞다고 내 가치관을 굳게 믿고 지내고는 했는데 형을 만난 뒤부터는 운명이라는 게 조금은 있을지도 모른다는 생각이 들어요 그래서 자기 전에 가끔 이런 생각을 해요
+                            <br><br>　<font color="#999999"><del><I>형이랑 나는</I></del></font> <strong> 우리는</strong> 좋아할 수밖에 없는 운명이고 앞으로도 쭉 함께일 거라고<br>
+                            <br>　형도 아시죠 반복되는 단조로운 매일 속 제가 제일 목이 빠지게 기다리는 시간은 고요한 어둠 속에서 형의 목소리에 집중하는 시간이라는 것 그리고 관심도 없던 일상과 희비의 유무는 형 한정으로 크거나 작거나 모두 동일한 크기로 궁금증이 되어 와닿는다는 것도요 휴대 전화가 뜨거워질 정도로 몇 번씩 쥔 손을 바꿔 가며 형과 새벽을 보내는 일은 영겁의 시간이 지나도 지루하게 느껴지지 않을 거예요
+                            <br><br>　우리가 처음 만난 날 제 운세가 어땠을지 모르지만 아마 틀림없이 올해를 통틀어 제일 좋은 날이었을 거예요 형에게 받는 관심과 애정은 무력해지고 나태해지기 쉬운 상황과 계절에도 스스로를 돌보게 만들고 고유하게 소유하고 있는 감정들을 정동 겹게 만들어 줘요 애정을 오롯이 꼭꼭 씹어 삼킬 수 있는 사람이 된 것도 지금보다 더 좋은 사람이 되고자 노력하는 것도 다 형 덕택이에요 제 삶에 이런 사람은 형 하나였으면 좋겠고 저도 형한테 그런 사람이고 싶어요 존재만으로도 마음이 채워지는 기분이 드는 그런 사람 말이에요
+                            <br><br>　장난스레 언제 사귀는 게 좋을지 물어봤던 질문에 형이 원래 이렇게 상의하고 사귀는 거냐고 되물었던 기억이 있어요 사실 동일 선상의 마음을 오랫동안 유지해 본 게 너무 오랜만이라 여전히 이 타이밍이 맞을지 혹시 더 좋은 타이밍은 없을지 골머리를 앓고 있지만 그래도 고백은 꼭 형이 좋아하는 뚜렷한 표현으로 전하고 싶었어요 형은 정확한 애정의 표현이 아니어도 제 마음이 다 느껴진다고 했지만 사람이 어떻게 좋아한다는 말을 하지 않고 속마음을 토로할 수 있겠어요
+                          <br><br>　아끼고 아꼈다가 도저히 못 견딜 것 같은 날 읊어 주고 싶었어요 요즈음 내 모든 일상에 형이 지독하게 얽혀 있고 앞으로도 쭉 그래 주면 좋겠다고 좋아하는 형이랑 매일을 보낸다면 무서울 게 하나도 없다고 말하고 싶었어요
+                          <br><br>그러니까 저랑 만나요 형<br>형이랑 나 말고 우리라는 이름으로 불리고 싶어요<br>그 이름으로 온갖 유구한 모습들을 함께 겪고 싶어요<br><br>좋아해요
+                        
+                        </p>
+                            </p>
+                        </div>
+                  </div>
+                  <br>
+                  <iframe width="6%" height="20" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1197053671&color=%23b4d1da&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/unwldnthereal" title="imzoo" target="_blank" style="color: #cccccc; text-decoration: none;"></a> <a href="https://soundcloud.com/unwldnthereal/love-actually-2003" title="Love Actually (2003)" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
+                </div>
+            </div>
+        </div>
+
+          <div class="menu-container">
+            <div class="menu-button">
+                <a href="index.html"><button>홈</button></a>
+                <a href="diary.html"><button>일기장</button></a>
+                <a href="picture.html"><button>사진첩</button></a>
+                <a href="guestbook.html"><button>방명록</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
